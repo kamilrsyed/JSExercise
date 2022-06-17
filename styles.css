@@ -1,0 +1,34 @@
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.page-heading, .instruction, .range {
+    margin: 2%;
+}
+
+.range {
+    padding-top: 2%;
+}
+
+.draw-number p {
+    display: inline-block;
+    padding-bottom: 2%;
+}
+
+.play-btn {
+    background-color: aliceblue;
+    height: 100px;
+    width: 200px;
+    margin: 2%;
+}
